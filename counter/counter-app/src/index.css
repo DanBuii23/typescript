@@ -25,9 +25,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Chiếm toàn bộ chiều cao màn hình */
+  margin: 0;
 }
 
 h1 {
@@ -51,8 +52,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-li {
-  list-style: none;
 }
